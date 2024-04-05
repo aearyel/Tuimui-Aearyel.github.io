@@ -6,15 +6,19 @@
     <link rel="stylesheet" href="styles.css">
     <title>TUI MUI</title>
 </head>
-
 <body>
     <div class="container">
         <div class="Mainprompt">
-            <img class="image" src="PAPAYA.jpg"></img>
+            <img class="image" src="PAPAYA.jpg" alt="TUI MUI Image">
             <h1 class="hh" id="name">TUI MUI</h1>
             <p class="pp" id="question">Discover a new way to be yourself</p>
-            
+            <button id="no-button" onclick="showMessage('No')">No</button>
+            <button id="yes-button" onclick="showMessage('Yes')">Yes</button>
+            <div class="no-message hidden-message" id="no-message">WRONG CHOICE BABY</div>
+            <div class="yes-message hidden-message" id="yes-message">DISCOVER THE NEW FASHION WITH TUI MUI</div>
+        </div>
+    </div>
 
+    <script src="script.js"></script>
 </body>
-
 </html>

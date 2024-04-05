@@ -23,37 +23,3 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-
-.buttons button {
-    background-color: #ff6f61;
-    color: #ffffff;
-    padding: 10px 30px;
-    border: none;
-    border-radius: 10px;
-    margin: 10px;
-    font-size: 26px;
-    cursor: pointer;
-    position: relative;
-    font-family: 'Arial', sans-serif;
-}
-
-.buttons button:hover {
-    background-color: #ff9a76;
-}
-
-.hidden-message {
-    display: none;
-    margin-top: 20px;
-}
-
-.move {
-    animation: moveNoMessage 0.5s linear;
-}
-
-@keyframes moveNoMessage {
-    0% { transform: translate(0, 0); }
-    25% { transform: translate(30px, 30px); }
-    50% { transform: translate(-20px, -20px); }
-    75% { transform: translate(10px, 10px); }
-    100% { transform: translate(0, 0); }
-}
